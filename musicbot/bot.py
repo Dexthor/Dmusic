@@ -744,7 +744,7 @@ class MusicBot(discord.Client):
                 return Response("No such command", delete_after=10)
 
         else:
-            helpmsg = "**Commands**\n```md"
+            helpmsg = "**Commands**\n```md\n"
             commands = []
 
             for att in dir(self):
